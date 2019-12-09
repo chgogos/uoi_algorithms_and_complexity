@@ -5,7 +5,6 @@ namespace operations_research
 void simple_knapsack_program()
 {
     MPSolver solver("IP KNAPSACK SOLVER", MPSolver::CBC_MIXED_INTEGER_PROGRAMMING);
-    const double infinity = solver.infinity();
     MPVariable *const x1 = solver.MakeBoolVar("x1");
     MPVariable *const x2 = solver.MakeBoolVar("x2");
     MPVariable *const x3 = solver.MakeBoolVar("x3");
