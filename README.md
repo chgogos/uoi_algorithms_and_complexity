@@ -8,7 +8,11 @@
   * Μετονομασία του **or-tools_VisualStudio2017-64bit_v7.4.7247** σε **ortools**
 
 ## Εκτέλεση παραδειγμάτων
-* Άνοιγμα του τερματικού **x64 Native Tools Command Prompt for VS 2017**.
+* Άνοιγμα του τερματικού **x64 Native Tools Command Prompt for VS 2017**. 
+  <!-- * Εναλλακτικά από ένα απλό τερματικό μπορεί να εκτελεστεί το αρχείο vcvars64.bat. 
+
+    > "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Auxiliary\Build\vcvars64.bat" -->
+
 * Μετάβαση στον κατάλογο ortools εντός του καταλόγου στο οποίο έχει κατέβει το αποθετήριο.
   
     > cd c:\git\uoi_algorithms_and_complexity\ortools
@@ -21,7 +25,7 @@
 
     > tools\make run SOURCE=..\src\ortools_ip_solver_knapsack_demo.cc
 
-<!-- * Εκτέλεση των tests του Google ORTools
+* Εκτέλεση των tests του Google ORTools
 
-    > tools\make test_cc -->
+    > tools\make test_cc
 
