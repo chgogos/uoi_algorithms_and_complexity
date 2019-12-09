@@ -1,0 +1,20 @@
+# extension-less executables
+*
+!*.*
+!*/
+
+#VSCODE
+.DS_Store
+*.dSYM
+
+# intermediate files
+*.o
+*.obj
+
+# LINUX - OSX
+
+# WINDOWS
+*.exe
+
+# ORTOOLS
+ortools
