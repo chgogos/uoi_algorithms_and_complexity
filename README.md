@@ -13,11 +13,11 @@
   
     > cd c:\git\uoi_algorithms_and_complexity\ortools
 
-* Εκτέλεση του παραδείγματος δυναμικού προγραμματισμού [ortools_dp_solver_knapsack_demo.cc](src\ortools_dp_solver_knapsack_demo.cc)
+* Εκτέλεση του παραδείγματος δυναμικού προγραμματισμού [ortools_dp_solver_knapsack_demo.cc](src/ortools_dp_solver_knapsack_demo.cc)
 
     > tools\make run SOURCE=..\src\ortools_dp_solver_knapsack_demo.cc
 
-* Εκτέλεση του παραδείγματος ακεραίου προγραμματισμού [ortools_ip_solver_knapsack_demo.cc](src\ortools_ip_solver_knapsack_demo.cc)
+* Εκτέλεση του παραδείγματος ακεραίου προγραμματισμού [ortools_ip_solver_knapsack_demo.cc](src/ortools_ip_solver_knapsack_demo.cc)
 
     > tools\make run SOURCE=..\src\ortools_ip_solver_knapsack_demo.cc
 
